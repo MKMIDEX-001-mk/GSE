@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>signup-page</title>
+    <link rel="stylesheet" href="./signup-page.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <i class="fa-regular fa-user"></i>
+      </div>
+      <h2>Create Your Account</h2>
+
+      <fieldset>
+        <label for="fullname"> Username</label> <br />
+        <input
+          class="text"
+          type="text"
+          id="fullname"
+          placeholder="Insert your Username here"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="Username"> Email</label> <br />
+        <input
+          class="text"
+          type="email"
+          id="Username"
+          placeholder="Insert your email here"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="password"> password</label> <br />
+        <input
+          class="text"
+          type="password"
+          id="password"
+          placeholder="Insert your password here"
+          required
+        />
+      </fieldset>
+
+      <!-- <fieldset>
+        <label for="Gender"> Gender:</label>
+        <span>Male</span> <input type="radio" name="gender" />
+        <span>Female</span> <input type="radio" name="gender" />
+      </fieldset> -->
+
+      <fieldset class="check">
+        <input type="checkbox" id="Gender" required />
+
+        <label class="term" for="Gender">
+          I agree to the terms and conditions.</label
+        >
+      </fieldset>
+
+      <button type="submit">Sign up</button>
+      <span>Already have Your account <a href="#">Login here</a></span>
+    </form>
+  </body>
+</html>
